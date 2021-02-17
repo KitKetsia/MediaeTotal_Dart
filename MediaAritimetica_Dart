@@ -1,12 +1,17 @@
-
+//Declaração de variavéis
 double MediaNota;
+int total;
 
+// Processamento dos dados e saída
 void calcularMedia(int nota1,int nota2,int nota3,int nota4){
-MediaNota = (nota1 + nota2 + nota3 + nota4) / 4;
+total = (nota1 + nota2 + nota3 + nota4);
+MediaNota = total / 4;
+  print ("O total das médias é: $total");
   print ("Sua média é: $MediaNota");
 
   }
 
+// Dados recebidos
 void main() {
   calcularMedia(5,7,10,3);
 
